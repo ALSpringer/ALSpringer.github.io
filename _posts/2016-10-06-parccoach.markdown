@@ -18,7 +18,7 @@ description: Mobile application using self-affirmation to help facilitate health
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/assets/images/parccoach1.png" alt="Alt Text">
-        <figcaption class="caption">EmotiCal Forecast Showing Expected Improvements in Mood Tomorrow</figcaption>
+        <figcaption class="caption">PARC Coach Logging Screen and Example of a Small Dose Self-Affirmation Question Designed to Improve Health Behavior Change</figcaption>
     </div>
 
     <div class="toright">
