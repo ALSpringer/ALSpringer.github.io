@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Aaron Springer
+bio: "PhD Candidate at UC Santa Cruz, AI*UX and Algorithmic Bias Researcher"
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: AI*UX and Algorithmic Bias
 
 # if it's an external image, update below for true
 # better with square images
@@ -13,8 +13,8 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: /assets/2018aaronspringerresume.pdf
 
 url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
@@ -30,42 +30,36 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname: # enter this from your disqus account
+  categories: # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: aaron.springer.7731
+#twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: aaron-springer-87b5a2136
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+#github: mygithub
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+#medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: aaronlspringer@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    aaronspringer:
+        name: Aaron Springer
+        bio: "PhD Candidate, Research Foci: AI*UX and Algorithmic Bias"
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
-
+    
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px

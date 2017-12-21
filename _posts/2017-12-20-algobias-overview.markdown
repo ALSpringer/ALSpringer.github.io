@@ -1,16 +1,14 @@
 ---
-title: "Markdown Common Elements"
-layout: post
-date: 2016-02-24 22:44
+title: "What's Lurking Beneath: Algorithmic Bias Today"
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - markdown
 - elements
-star: true
+star: false
 category: blog
-author: johndoe
-description: Markdown summary with different options
+author: aaronspringer
+description: An Detailed List of Where People Encounter Algorithmic Bias
 ---
 
 ## Summary:

@@ -1,0 +1,32 @@
+---
+title: "EmotiCal - Mood Regulation Through Future Mood Prediction"
+layout: post
+date: 2016-09-16 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- emotical
+- machine-learning
+- mood
+- UXofAI
+category: project
+projects: true
+author: aaronspringer
+description: Mobile application forecasting user futures moods and recommending positive activities
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+---
+
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="{{ site.url }}/assets/images/emoticalforecast.png" alt="Alt Text">
+        <figcaption class="caption">EmotiCal Forecast Showing Expected Improvements in Mood Tomorrow</figcaption>
+    </div>
+
+    <div class="toright">
+        <p>EmotiCal is a cross-platform mobile application to help normal people regulate their emotional state on a day to day basis. EmotiCal accomplishes this by predicting future moods of the user and allowing them to schedule activities that could improve their mood in future days. These activities that users can schedule are learned by EmotiCal from the daily logs that users record where they talk about the activities they engaged in and their mood overall each day.</p>
+    </div>
+</div>
+<p> My role in this project was architecting and implementing the machine learning that powered the future mood forecasts, current mood models, and activity recommendations. I took a cue from econometrics methods in order to forecast mood. Previous research has shown that mood follows daily and weekly cycles which indicated that it may be a good fit for ARIMA style methods that could incorporate seasonality into predictions. With this knowledge, I implemented the future mood prediction as an ARIMA that tuned itself to find the right AR/MA parameters on an individual user basis.</p>
+<p> In addition to predicting future mood, I also modeled current mood from activities that users reported engaging in. I implemented this as a linear regression model, this allowed for easily interpretable models that could be used for multiple purposes. Given that we were deploying this with small amounts of users in our experiments, common recommender algorithms were not a good fit. Therefore, we used this linear model to make activity recommendations to users based on the positive/negative effects of the activities they engaged. The linear model additionally helped with the mood forecast by estimating the impact that scheduling an activity would have on the mood of that future day.</p>
+<p>After successful experiments indicating that EmotiCal improved emotional regulation and awareness in users, I engaged in a post-hoc analysis of much of the data. I examined how using general mood models compared to personalized models for each user. I proposed a solution to the cold start problems of these models starting without data by clustering users into subgroups and using these subgroups for recommendation. Additionally, I examined how users talked about mood and how to predict the mood of a user just from the text they had written about their day. These textual models were later used in some of my E-meter (LINK) experiments.</p>
+<p>Overall this project taught me about the tradeoffs needing to be made in implementing machine learning models for use with real users. It also seeded many thoughts about how users were interacting with our algorithms and building mental models of our system. These thoughts influenced by dissertation proposal to examine the user experience of machine learning systems. </p>
