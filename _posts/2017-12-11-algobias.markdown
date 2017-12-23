@@ -15,4 +15,8 @@ description: Developed a novel method to recognize algorithmic bias in voice int
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
-Incoming
+Current voice interfaces can act as exclusionary gatekeepers with regards to accessing content. The exclusion may result from different phenomena that would fall under the umbrella of algorithmic bias. The problem could be unrepresentative data, homogenous testing teams, poor sampling strategies, or any other one of hundreds of steps that could insert bias into a program. Unfortunately, all current voice interfaces suffer from this algorithmic bias in different forms. **I set out to detect specific biases and create a lightweight process to correct them within a voice interface.**
+
+A huge problem with algorithmic bias work is discovering what the exact biases are. Is the voice interface biased against women's voices? Or is it against specific accents? Which accents? Maybe it has issues with children's voices. The possibility space is huge and manually testing all of these by bringing in the specific users for studies is simply infeasible. Realizing that the problem of discovering specific biases could not be approached this way, I reframed the problem in a more efficient way. Rather than looking for specific biases, I began looking for specific pieces of content that suffered from being excluded by the voice interface. This still was not an easy task but this reframing made the problem tractable. 
+
+I don't want to spoil everything here so watch out for my paper "Play PRBLMS": Identifying and Correcting Less Accessible Content in Voice Interfaces at CHI 2018!
