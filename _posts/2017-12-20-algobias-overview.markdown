@@ -1,13 +1,23 @@
 ---
-title: "What's Lurking Beneath: Algorithmic Bias Today"
+title: "Defining Algorithmic Bias"
+layout: post
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- elements
+- bias
+- machine-learning
 star: false
 category: blog
 author: aaronspringer
-description: An Detailed List of Where People Encounter Algorithmic Bias
+description: How do we define algorithmic bias?
 ---
-Incoming
+Defining algorithmic bias is not a simple task. Some say it is simply when algorithms' training data differs from a true distribution. Others say it requires systematic intent from the algorithm creators to disadvantage certain groups. Both of these are too narrow of a definition. __Algorithmic bias is the use of any algorithm that results in a degraded experience for a group of people due to a factor unrelated to the algorithm's purpose.__ First, let's examine how current definitions fail to encompass all algorithmic bias and then we'll explore our definition further.
+
+### Algorithmic Bias is Not Simply Biased Data
+Many people in the machine learning communities are often ready to dismiss algorithmic bias as a simple issue where the training data is not representative of the true population. For example, perhaps we are training Alexa's voice recognition and we ended up using only voices from upper-middle class white men in the training set. [This could result in Alexa not recognizing voices from other speakers](https://www.technologyreview.com/s/608619/ai-programs-are-learning-to-exclude-some-african-american-voices/). This type of biased training data is big problem but it's not the only problem that falls under the umbrella of algorithmic bias. Defining algorithmic bias as solely "unrepresentative training data" fails to account for the many situations where training data is representative but biased by societal decisions. For example, let's look at COMPAS, which blew up a couple years ago after [ProPublica published an article indicating that the software was biased against African-Americans.](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) COMPAS is a risk assessment software that informs judges about a criminal's predicted future offenses. Judges all over the United States use this software to help determine sentencing length and parole eligibility of criminals. As ProPublica indicated, the COMPAS software seems to be far more likely to rate African-Americans as likely to reoffend even if this isn't borne out by the data afterwards. COMPAS is a case where the training data being unrepresentative isn't the only issue to tackle. A bigger problem with COMPAS is that it embodies the [societal biases that judges and juries pass on to African-American defendants within the court system](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C14&as_vis=1&q=sentencing+biases+in+american+legal+system&btnG=). _The problem may be that COMPAS is actually too representative of our legal system._ COMPAS may quickly learn that defendents of color are judged more harshly and therefore predict that their chance of serious reoffenses is more likely. Algorithmic bias is not solely a problem with the data.
+
+### Algorithmic Bias is Often Unintentional
+Other academics such as Friedman and Nissenbaum (2001) argue that algorithmic bias pertains to "computer systems that systematically and unfairly discriminate against certain individuals or groups of individuals in favor of others". While Friedman and Nissenbaum's work was prescient in many ways, their definition of algorithmic bias here fails for one reason. "Systematically" implies a intentional and methodical process that creators engage in to disadvantage certain users. This definition was written in a time where intelligent systems powered by machine learning were not as widely deployed and makes sense in that context. Friedman and Nissenbaum's examples are often about systems like [SABRE](https://en.wikipedia.org/wiki/Sabre_(computer_system)#Controversy) that were intentionally biased by programmers towards a specific outcome. Such intentional biasing is likely less common today than the unintentional biases in every intelligent system. _Algorithmic bias is not often systematic, but it is often systemic._
+
+### The Broad Definition
+As I defined above: algorithmic bias is the use of any algorithm that results in a degraded experience for a group of people due to a factor unrelated to the algorithm's purpose. This broadens the above two definitions to include other phenomena that would fall under colloquial definitions of algorithmic bias but not under the academic definitions proposed thus far. For example, [a passport photo service that would not let a user progress and kept informing them to "open their eyes" when the user uploaded a picture of themselves.](https://qz.com/857122/an-algorithm-rejected-an-asian-mans-passport-photo-for-having-closed-eyes/) This problem cannot be explicitly attributed to biased data or programmer intent and thus would not fall into the above definitions. However, this user (and likely many others) had a degraded experience due to their facial features that are characteristic of their heritage. The user's facial features should really have no impact on whether or not they receive a passport and thus this is also a factor unrelated to the algorithm's purpose. Together these two criteria are met and thus this situation falls under the definition of algorithmic bias in this article. Does this mean algorithmic bias is ubiquitous in every system? It just might. Stay tuned for that discussion.
