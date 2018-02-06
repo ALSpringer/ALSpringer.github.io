@@ -1,6 +1,7 @@
 ---
 title: "Defining Algorithmic Bias"
 layout: post
+date: 2017-12-20 12:19
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -11,6 +12,7 @@ category: blog
 author: aaronspringer
 description: How do we define algorithmic bias?
 ---
+
 We don't have a good definition of _algorithmic bias_. Some say it is simply when algorithms' training data differs from a true distribution. Others argue algorithmic bias requires systematic intent from the algorithm creators to disadvantage certain groups. Both of these are too narrow of a definition. __Algorithmic bias is the use of any algorithm that results in a degraded experience for a group of people due to a factor unrelated to the algorithm's purpose.__ Current definitions fail to encompass all algorithmic bias for 2 reasons: assumptions that algorithmic bias is only a data problem and definitions of algorithmic bias that require biased intent.
 
 ### Algorithmic Bias is Not Simply Biased Data
