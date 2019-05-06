@@ -9,6 +9,8 @@ layout: page
 <h2>Research Topics</h2>
 
 <ul class="skill-list">
+	<li>Explainable AI</li>
+	<li>Transparency in AI</li>
 	<li>Trust in Intelligent Systems</li>
 	<li>Expectation Violation</li>
 	<li>Algorithmic Bias</li>
