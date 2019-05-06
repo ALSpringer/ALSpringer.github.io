@@ -1,9 +1,9 @@
 # main text of home
 name: Aaron Springer
-bio: "PhD Candidate at UC Santa Cruz, AI*UX and Algorithmic Bias Researcher"
+bio: "PhD Candidate at UC Santa Cruz, Human-Centered AI Researcher"
 
 # twitter summary info
-description: AI*UX and Algorithmic Bias
+description: Human-Centered AI Researcher
 
 # if it's an external image, update below for true
 # better with square images
@@ -34,7 +34,7 @@ disqus:
   categories: # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: aaron.springer.7731
+#facebook: aaron.springer.7731
 # twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
@@ -55,7 +55,7 @@ email: contact@aaronlspringer.com
 authors:
     aaronspringer:
         name: Aaron Springer
-        bio: "PhD Candidate, Research Foci: AI*UX and Algorithmic Bias"
+        bio: "PhD Candidate, Human-Centered AI Researcher"
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
