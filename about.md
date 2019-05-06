@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>I am a 5th year PhD candidate at University of California Santa Cruz working under Steve Whittaker. My research focuses on the interaction between User Experience and Machine Learning. Additionally, I research algorithmic bias; how to detect and counter the societal biases that many algorithms are implicitly learning. I have interned at Xerox PARC under Peter Pirolli, at Spotify under Henriette Cramer, and at Google under Joy Thomas..</p>
+<p>I am a 5th year PhD candidate at University of California Santa Cruz working under Steve Whittaker. Broadly, I characterize my research as Human-Centered AI research. This research includes work on fairness such as the 'Play PRBLMS' paper where we explore how voice interfaces disadvantage specific ways of speaking. My research also focuses on transparency and explainable AI—I explore how systems should explain their predictions to humans in ways that we trust and understand.  I have interned at Xerox PARC under Peter Pirolli, at Spotify under Henriette Cramer, and at Google under Joy Thomas.</p>
 
 <h2>Research Topics</h2>
 
