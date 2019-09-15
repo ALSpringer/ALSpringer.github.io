@@ -13,10 +13,10 @@ I finished my PhD at University of California Santa Cruz working under Steve Whi
 
 <ul class="skill-list">
 	<li>Explainable AI</li>
+	<li>Algorithmic Bias</li>
 	<li>Transparency in AI</li>
 	<li>Trust in Intelligent Systems</li>
 	<li>Expectation Violation</li>
-	<li>Algorithmic Bias</li>
 	<li>Voice Interfaces</li>
 	<li>Self-Affirmation</li>
 	<li>Health Behavior Change</li>
