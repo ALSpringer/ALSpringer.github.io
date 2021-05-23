@@ -1,6 +1,6 @@
 # main text of home
 name: Aaron Springer
-bio: "Human-Centered AI Researcher, Quantitative User Experience Research at Google"
+bio: "Human-Centered AI Researcher, Quantitative UX Researcher at Google"
 
 # twitter summary info
 description: Human-Centered AI Researcher
@@ -55,10 +55,10 @@ email: contact@aaronlspringer.com
 authors:
     aaronspringer:
         name: Aaron Springer
-        bio: "PhD Candidate, Human-Centered AI Researcher"
+        bio: "Human-Centered AI Researcher, Quantitative UX Researcher at Google"
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+        twitter: 
     
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
