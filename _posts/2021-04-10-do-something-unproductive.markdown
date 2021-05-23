@@ -1,5 +1,5 @@
 ---
-title: "Do Something Unproductive."
+title: "Do Something Unproductive"
 layout: post
 date: 2021-04-10 12:19
 image: /assets/images/markdown.jpg
