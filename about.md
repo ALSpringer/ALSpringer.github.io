@@ -6,7 +6,7 @@ layout: page
 
 <p>I work as a Senior Quantitative User Experience researcher at Google.
 <br>
-I finished my PhD at University of California Santa Cruz working under Steve Whittaker in 2019. Broadly, I characterize my research as Human-Centered AI research. This research includes work on fairness such as the 'Play PRBLMS' paper where we explore how voice interfaces disadvantage specific ways of speaking. My research also focuses on transparency and explainable AI—I explore how systems should explain their predictions to humans in ways that we trust and understand.  I have interned at Xerox PARC under Peter Pirolli, at Spotify under Henriette Cramer, and at Google under Joy Thomas.
+I finished my PhD at University of California Santa Cruz working under Steve Whittaker in 2019. Broadly, I characterize my research as Human-Centered AI research. This research includes work on fairness such as the 'Play PRBLMS' paper where we explore how voice interfaces disadvantage specific ways of speaking. Under the human-centered AI umbrella, my research also focuses on transparency and explainable AI. I explore how systems should explain their predictions to humans in ways that we trust and understand.  I previously interned at Xerox PARC under Peter Pirolli, at Spotify under Henriette Cramer, and at Google under Joy Thomas.
 </p>
 
 <h2>Research Topics</h2>
